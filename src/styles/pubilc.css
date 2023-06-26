@@ -1,0 +1,87 @@
+@import url(Root.css);
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  transition: all 200ms;
+}
+a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin: 3px 0px;
+}
+
+a:hover {
+  color: var(--bg-first);
+}
+::selection {
+  background: var(--bg-first);
+  color: var(--w);
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+  background: var(--bg-Home);
+}
+img {
+  width: 100%;
+}
+.Error {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--bg-first);
+  font-size: 44px;
+  font-weight: bolder;
+}
+.Error::after {
+  content: "";
+  background: var(--w);
+  margin: 10px;
+  padding: 5px;
+  border-radius: 50%;
+}
+.Error::before {
+  content: "";
+  background: var(--w);
+  margin: 10px;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.font-50px {
+  font-size: 50px;
+}
+.h-100vh {
+  height: 100vh;
+}
+.h-100 {
+  height: 100%;
+}
+.w-fuil {
+  width: 100%;
+}
+.f-c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.f-col {
+  flex-flow: column;
+}
+::-webkit-scrollbar {
+  background: var(--bg-Home);
+}
+.m_t_70 {
+  margin-top: 70px;
+}
+.mt-70 {
+  margin-top: 70px;
+}
+.flex-gap60{
+  display: flex;
+  margin: 40px 0px;
+}

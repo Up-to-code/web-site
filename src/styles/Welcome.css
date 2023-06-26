@@ -1,0 +1,38 @@
+/* =========== */
+.Popu-Box {
+  width: 800px;
+  height: 500px;
+  background: var(--bg-Sa);
+  box-shadow:var(--shadow);
+  color: var(--w);
+  padding: var(--p-8);
+  position: relative;
+ border-radius: 5px;
+}
+.Boxes{
+    margin-bottom: 20px;
+    gap: 74px;
+    margin-top: 20px;
+}
+.Q{
+    position: absolute;
+    top: 90px;
+}
+.Box{
+    padding: 15px 35px;
+    font-size: 20px;
+    background: var(--bg-Home);
+    font-weight: 700;
+    border-radius: 5px;
+    border: solid var(--bg-Home) 1px;
+    cursor: pointer;
+}
+.Box:hover{
+    border: solid var(--bg-first) 1px;
+    background: #4343434b;
+}
+.seliket{
+    background: var(--bg-first);
+    color: white;
+    padding: 3px 50px;
+}
